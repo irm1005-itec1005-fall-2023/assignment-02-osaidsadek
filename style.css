@@ -1,19 +1,94 @@
-/*
- * Assignment 02
- * CSS FILE
- */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Reset some default margin and padding */
+body, h1, h2, h3, ul, li, p, table {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+/* Set the background color to dark blue and text color to white */
+body {
+  background-color: #0A2743; /* Dark Blue */
+  color: white;
+}
+
+/* Style the header */
+header {
+  background-color: #0A2743; /* Dark Blue for the header */
+  padding: 10px;
   text-align: center;
-  color: #023047;
+}
+
+header img {
+  width: 100px; /* Adjust the width as needed */
+}
+
+header h1 {
+  font-size: 24px; /* Adjust the font size as needed */
+  margin-top: 10px;
+}
+
+/* Style the navigation menu */
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Style the main content sections */
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #0A2743; /* Dark Blue for sections */
+  color: white;
+  padding: 20px;
+  margin: 10px 0;
+  border: 2px solid #00A0C6; /* Add a border around each section */
+}
+
+section h2 {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+/* Style the images */
+img {
+  max-width: 100%; /* Ensure images are responsive and don't exceed their container */
+}
+
+/* Style the call-to-action section */
+.call-to-action {
+  background-color: #0A2743; /* Dark Blue for the call-to-action */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #00A0C6; /* Add a border around the call-to-action section */
+}
+
+.call-to-action h2 {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Style the contact section */
+#contact {
+  background-color: #0A2743; /* Dark Blue for the contact section */
+  color: white;
+  padding: 20px;
+  border: 2px solid #00A0C6; /* Add a border around the contact section */
+}
+
+/* Style the footer */
+footer {
+  background-color: #0A2743; /* Dark Blue for the footer */
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #00A0C6; /* Add a border around the footer */
+}
+
+footer nav ul li {
+  display: inline;
+  margin-right: 20px;
 }

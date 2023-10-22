@@ -1,33 +1,170 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-
+<html lang="en">
 <head>
-  <!-- Set the page title -->
-  <title>Assignment 02</title>
-
-  <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
-
-  <!-- Set the screens default zoom / scale to 1 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-  <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
-
-  <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Real Madrid Facts</title>
 </head>
-
 <body>
-  <!--
+    <header>
+        <div class="header-content">
+            <img src="./images/OIP (3).jpg" alt="Real Madrid Logo">
+            <h1>Real Madrid Facts</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <main>
+        <section id="home">
+            <h1>Welcome to Real Madrid Facts</h1>
+            <img src="./images/OIP.jpg" alt="Real Madrid Image">
+        </section>
 
-  -->
-  <h1>Assignment 02</h1>
+        <section id="about">
+            <h2>About Real Madrid</h2>
+            <p>We are a dedicated website providing you with the latest and most accurate information about the legendary football club, Real Madrid.</p>
+        </section>
+
+        <section id="trophies">
+            <h2>Real Madrid Trophies</h2>
+            <ul>
+                <li>14 Uefa Champions League</li>
+                <li>8 FIFA Club World Cups</li>
+                <li>The Best Club Of The 20TH Century FIFA Trophy</li>
+                <li>5 European Super Cups</li>
+                <li>35 National Leagues</li>
+                <li>12 Spanish Super Cups</li>
+                <li>20 Spanish Cups</li>
+                <li>2 Uefa Cups</li>
+                <li>1 League Cup</li>
+                <li>2 Small World Cups</li>
+                <li>2 Latin Cups</li>
+                <li>1 Ibero-American Cup</li>
+                <li>18 Regional Championship</li>
+                <li>5 Mancomunados Trophies</li>
+            </ul>
+        </section>
+
+        <section id="top-scorers">
+            <h2>Top Scorers For Real Madrid</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player name</th>
+                        <th>Goals</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Cristiano Ronaldo</td>
+                        <td>450</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Karim Benzema</td>
+                        <td>352</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Raul</td>
+                        <td>324</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Alfredo Di Stefano</td>
+                        <td>266</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Santillana</td>
+                        <td>236</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Ferenc Puskas</td>
+                        <td>195</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Hugo Sanchez</td>
+                        <td>190</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Emilio Butragueno</td>
+                        <td>154</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Paco Gento</td>
+                        <td>134</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Fernando Hierro</td>
+                        <td>124</td>
+                    </tr>
+                </tbody>
+            </table>
+          
+        </section>
+
+        <section id="stadium">
+            <h2>Santiago Bernabeu Stadium</h2>
+            <p>Santiago Bernabeu</p>
+            <ul>
+                <li>The Santiago Bernabeu first opened in 1947</li>
+                <li>The capacity of the Santiago Bernabeu is 81 thousand</li>
+                <li>The stadium is named after Real Madrid legend Santiago Bernabeu</li>
+                <li>The Santiago Bernabeu is one of the biggest stadiums in the sport</li>
+            </ul>
+        </section>
+
+        <section id="legends">
+            <h2>Real Madrid Legends</h2>
+            <p>Four Real Madrid Legends:</p>
+            <ul>
+                <li>Cristiano Ronaldo</li>
+                <li>Arbeloa</li>
+                <li>Sergio Ramos</li>
+                <li>Gareth Bale</li>
+            </ul>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="call-to-action">
+            <h2>Join Our Newsletter</h2>
+            <p>Stay updated with the latest Real Madrid facts. Sign up for our newsletter now!</p>
+            <a href="#newsletter" class="cta-button">Sign Up</a>
+        </section>
+    </main>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <h3>Phone</h3>
+        <p>613-111-1111</p>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <p>&copy; 2023</p>
+        </div>
+    </footer>
 </body>
-
 </html>
